@@ -1,5 +1,9 @@
 @charset "UTF_8";
 
+body {
+    background-image: url('bondrewd.png');
+}
+
 img {
     display: block;
     margin: auto;
