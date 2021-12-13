@@ -1,45 +1,60 @@
 @charset "UTF_8";
 
-body {
-    background-image: url('bondrewd.png');
+:root {
+    --cor1: black;
+    --cor2: rgb(88, 88, 88);
+    --cor3: rgb(190, 190, 190);
+    --cor4: white;
 }
 
-img {
-    display: block;
-    margin: auto;
+
+
+
+* {
+    margin: 0%;
+    padding: 0%;
 }
+ 
 header {
-    background-color: white;
+    color: var(--cor4);
+    background-color: var(--cor1);
     padding: 10px;
-    margin: 10px 10px 3px 1px;
     box-shadow: 2px 2px 5px rgba(110, 110, 110, 0.411);;
 }
-nav {
-    background-color: rgb(202, 190, 190);
-}
-body {
-    background-color: antiquewhite;
-}
-main {
-    max-width: 800px;
-    background-color: white;
-    padding: 5px 10px 10px 10px;
-    box-shadow: 2px 2px 5px rgba(110, 110, 110, 0.411);
-}
-.main {
-    background-color: white;
-}
+
 a {
+    color: var(--cor1);
     text-decoration: none;
-
-}
-
-nav a {
-    padding-left: 10px;
 }
 
 a:hover {
     text-decoration: underline;
-    color: rgba(42, 42, 179, 0.692);
+    font-weight: bolder;
 }
+nav {
+    padding: 1px;
+    background-color: var(--cor4);
+}
+body {
+    background-color: var(--cor3);
+}
+main {
+    max-width: 800px;
+    background-color:var(--cor4);
+    padding: 15px;
+    box-shadow: 2px 2px 5px rgba(110, 110, 110, 0.411);
+}
+main.hubble {
+    background-color: var(--cor4);
+    margin: auto;
+}
+
+h1.hubble {
+    text-align: center;
+}
+
+ul {
+    margin: 10px;
+}
+
 
