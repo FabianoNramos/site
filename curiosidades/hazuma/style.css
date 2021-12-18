@@ -53,8 +53,27 @@ h1.hubble {
     text-align: center;
 }
 
+
 ul {
     margin: 10px;
+    background-color: rgba(128, 128, 128, 0.521);
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+    
 }
 
+li {
+    margin-left: 18px;
+}
+
+
+
+#secret {
+    color: rgba(110, 110, 110, 0.411);
+}
+
+#secret:hover {
+    color: black;
+}
 
